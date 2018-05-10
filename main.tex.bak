@@ -155,7 +155,7 @@
   \end{itemize}
   \column{0.4\textwidth}
   \begin{center}
-  \includegraphics[scale=0.4]{Crazy_Flie_img.jpg}
+  \includegraphics[scale=0.6]{Drone_Mobility.jpg}
   \end{center}
   \end{columns}
 \end{frame}
@@ -190,7 +190,7 @@
   \setlength{\arrayrulewidth}{0.2mm}
   \setlength{\tabcolsep}{5pt}
   \renewcommand{\arraystretch}{1.2}
-  \newcolumntype{s}{>{\columncolor[HTML]{32CD32}} p{2.4cm}}
+  \newcolumntype{s}{>{\columncolor[HTML]{b5e7a0}} p{2.4cm}}
   \arrayrulecolor[HTML]{000000}
  
   \begin{tabular}{ |p{3cm}|p{2.4cm}|p{2.4cm}|s|  }
@@ -218,7 +218,7 @@
   \setlength{\arrayrulewidth}{0.2mm}
   \setlength{\tabcolsep}{5pt}
   \renewcommand{\arraystretch}{1.2}
-  \newcolumntype{s}{>{\columncolor[HTML]{32CD32}} p{3.55cm}}
+  \newcolumntype{s}{>{\columncolor[HTML]{b5e7a0}} p{3.55cm}}
   \arrayrulecolor[HTML]{000000}
  
   \begin{tabular}{ |p{3.55cm}|s|p{3.55cm}| }
@@ -246,7 +246,7 @@
   \setlength{\arrayrulewidth}{0.2mm}
   \setlength{\tabcolsep}{5pt}
   \renewcommand{\arraystretch}{1.2}
-  \newcolumntype{s}{>{\columncolor[HTML]{32CD32}} p{2cm}}
+  \newcolumntype{s}{>{\columncolor[HTML]{b5e7a0}} p{2cm}}
   \arrayrulecolor[HTML]{000000}
  
   \begin{tabular}{ |p{2cm}|p{2cm}|p{2cm}|s|p{2cm}| }
@@ -274,14 +274,14 @@
   \setlength{\arrayrulewidth}{0.2mm}
   \setlength{\tabcolsep}{5pt}
   \renewcommand{\arraystretch}{1.2}
-  \newcolumntype{s}{>{\columncolor[HTML]{32CD32}} p{2cm}}
+  \newcolumntype{s}{>{\columncolor[HTML]{b5e7a0}} p{2cm}}
   \arrayrulecolor[HTML]{000000}
  
   \begin{tabular}{ |p{2cm}|p{2cm}|p{2cm}|p{2cm}|s| }
   \hline
   &\textbf{DJI Phantom}\cite{DJIPhanthom}&\textbf{Pixhawk}\cite{Pixhawk}&\textbf{Parrot AR drone}\cite{Parrot}&\textbf{CrazyFlie}\cite{Crazyflie}\\
   \hline
-  &\includegraphics[scale=0.05]{DJI_Phanthom.jpg}&\includegraphics[scale=0.05]{Pixhawk.jpg}&\includegraphics[scale=0.08]{Parrot.jpg}&\includegraphics[scale=0.2]{Crazy_Flie_img.jpg}\\
+  &\includegraphics[scale=0.04]{DJI_Phanthom.jpg}&\includegraphics[scale=0.05]{Pixhawk.jpg}&\includegraphics[scale=0.08]{Parrot.jpg}&\includegraphics[scale=0.17]{Crazy_Flie_img.jpg}\\
   \hline
   Type & Complete system & Flight Controller only & Complete system & Complete system \\
   \hline
@@ -296,6 +296,22 @@
   \end{tabular}
   \end{center}
   \end{footnotesize}
+  
+  \begin{tiny}
+  \begin{columns}
+  \column{0.5\textwidth}
+  [1]\texttt{www.dji.com/phantom-4/info}
+  \column{0.5\textwidth}
+  [3]\texttt{www.sciautonics.com/parrot-ar-drone-2-0-review}
+  \end{columns}
+  \begin{columns}
+  \column{0.5\textwidth}
+  [2]\texttt{ardupilot.org/copter/docs/common-pixhawk-overview}
+  \column{0.5\textwidth}
+  [4]\texttt{www.bitcraze.io/crazyflie-2/}
+  \end{columns}
+  \end{tiny}  
+    
 \end{frame}
 
 \begin{frame}{Evaluation of Alternative Strategies}{Sensing methods for autonomous navigation and mapping}
@@ -304,12 +320,14 @@
   \setlength{\arrayrulewidth}{0.2mm}
   \setlength{\tabcolsep}{5pt}
   \renewcommand{\arraystretch}{1.2}
-  \newcolumntype{s}{>{\columncolor[HTML]{32CD32}} p{3.55cm}}
+  \newcolumntype{s}{>{\columncolor[HTML]{b5e7a0}} p{3.55cm}}
   \arrayrulecolor[HTML]{000000}
  
   \begin{tabular}{ |p{3.55cm}|p{3.55cm}|s| }
   \hline
-  \textbf{Vision based}\cite{•}&\textbf{LIDAR}&\textbf{Sparse Sensing}\\
+  \textbf{Vision based}&\textbf{LIDAR}&\textbf{Sparse Sensing}\\
+  \hline
+  [1][2]&[3][4]&[5][6] \\
   \hline
   3D map&3D point cloud&Low resolution grid maps \\
   \hline
@@ -318,6 +336,21 @@
   \end{tabular}
   \end{center}
   \end{footnotesize}
+  
+  \begin{tiny}
+  [1] C. Troiani, S. A. Zanati, and A. Martinelli, “A 3 points vision based approach for mav localization in gps denied environments,” in 2013 European Conference on Mobile Robots.
+  
+  [2] D. Li, Q. Li, L. Tang, S. Yang, N. Cheng, and J. Song, “Invariant observer-based state estimation for micro-aerial vehicles in gps-denied indoor environments using an rgb-d camera and mems inertial sensors”, Micromachines, vol. 6.
+  
+  [3] Lorenz Wellhausen, Renaud Dubé and  Abel Gawel, “Reliable real-time change detection and mapping for 3D LiDARs”, Safety, Security and Rescue Robotics (SSRR), 2017 IEEE International Symposium.
+  
+  [4] Paulo V. K. Borges and Alberto Elfes, “Real-time autonomous ground vehicle navigation in heterogeneous environments using a 3D LiDAR”, Intelligent Robots and Systems (IROS), 2017 IEEE/RSJ International Conference.
+
+  [5] Kristopher R. Beevers and Wesley H. Huang “An Embedded Implementation of SLAM with Sparse Sensing”, Submitted the 2008 IEEE International Conference on Robotics \& Automation (ICRA 2008)
+  
+  [6] K. R. Beevers. “Mapping with limited sensing”. PhD thesis, Rensselaer Polytechnic Institute, Troy, NY, January 2007.
+  \end{tiny}
+  
 \end{frame}
 
 \begin{frame}{Evaluation of Alternative Strategies}{Sensing methods comparison}
@@ -326,7 +359,7 @@
   \setlength{\arrayrulewidth}{0.2mm}
   \setlength{\tabcolsep}{5pt}
   \renewcommand{\arraystretch}{1.2}
-  \newcolumntype{s}{>{\columncolor[HTML]{32CD32}} p{2.4cm}}
+  \newcolumntype{s}{>{\columncolor[HTML]{b5e7a0}} p{2.4cm}}
   \arrayrulecolor[HTML]{000000}
  
   \begin{tabular}{ |p{3cm}|p{2.4cm}|p{2.4cm}|s|  }
@@ -390,22 +423,22 @@
   \setlength{\arrayrulewidth}{0.2mm}
   \setlength{\tabcolsep}{5pt}
   \renewcommand{\arraystretch}{1.2}
-  \newcolumntype{s}{>{\columncolor[HTML]{32CD32}} p{3.55cm}}
+  \newcolumntype{s}{>{\columncolor[HTML]{b5e7a0}} p{3.55cm}}
   \arrayrulecolor[HTML]{000000}
  
   \begin{tabular}{ |p{2cm}|p{3.55cm}|p{5cm}| }
   \hline
-  \textbf{Technical}&\textbf{Risk}&\textbf{Solution}\\
+  \textbf{Category}&\textbf{Risk}&\textbf{Solution}\\
   \hline
-  Technical&Limited battery life&Continuous battery level monitoring; Return to start position\\
+  \multirow{4}{*}{Technical}&Limited battery life&Continuous battery level monitoring; Return to start position\\
   \hline
-  Technical&Deprecated motors&Buy extra motors as backup\\
+  &Deprecated motors&Buy extra motors as backup\\
   \hline
-  Technical&Damages to hardware&Use of software simulation to verify algorithms and using hardware at the final phase\\
+  &Damages to hardware&Use of software simulation to verify algorithms and using hardware at the final phase\\
   \hline
-  Technical&Environmental impacts when testing on hardware&Design and build a customizable arena in university premises\\
+  &Environmental impacts when testing on hardware&Design and build a customizable arena in university premises\\
   \hline
-  Technical&Expenses for the hardware&Partially sponsored by CSIRO\\
+  Financial&Expenses for the hardware&Partially sponsored by CSIRO\\
   \hline
   \end{tabular}
   \end{center}
@@ -448,7 +481,7 @@
   \setlength{\arrayrulewidth}{0.2mm}
   \setlength{\tabcolsep}{5pt}
   \renewcommand{\arraystretch}{1.2}
-  \newcolumntype{s}{>{\columncolor[HTML]{32CD32}} p{3.55cm}}
+  \newcolumntype{s}{>{\columncolor[HTML]{b5e7a0}} p{3.55cm}}
   \arrayrulecolor[HTML]{000000}
  
   \begin{tabular}{ |p{3.55cm}|p{3.55cm}|p{3.55cm}| }
@@ -549,96 +582,30 @@ Australia.
 \end{frame}
 
 \begin{frame}{Deliverables}
-\begin{enumerate}
-\item Autonomous navigation inside an unstructured environment
-\item A Low resolution 3D map of the environment
-\item Positions of the heat emitting objects inside the environment
-\end{enumerate}
+  \begin{enumerate}
+  \item Autonomous navigation inside an unstructured environment
+    \begin{enumerate}
+    \item Obstacle avoidance
+    \item Path planning
+    \end{enumerate}
+  \item A Low resolution 3D map of the environment
+  \item Positions of the humans inside the environment. Expected to demonstrate using hot water bottles.
+  \end{enumerate}
 \end{frame}
 
 \begin{frame}{Current Progress}
 \begin{itemize}
-\item Increase the stability of the quadcopter using the optical flow sensor.
-\item Build the radio link with the PC to send navigation commands.
-\item Implement the state estimation algorithm using an EKF.
-\item Track the trajectory of the quadcopter while moving.
+\item Increase the stability of the quadcopter using the optical flow sensor
+\item Build the radio link with the PC to send navigation commands
+\item Test a state estimation algorithm including position tracking
+\item Track the trajectory of the quadcopter while moving
 \end{itemize}
- \begin{figure}
-    \centering
-    \subfloat{{\includegraphics[width=5cm]{Trajectory_img.jpg}}}
-    \qquad
-    \subfloat{{\includegraphics[width=5cm]{Trajectory_img.jpg} }}
-  \end{figure}
-\end{frame}
-
-% All of the following is optional and typically not needed. 
-\appendix
-\section<presentation>*{\appendixname}
-\subsection<presentation>*{References}
-
-\begin{frame}[allowframebreaks]
-  \frametitle<presentation>{References}
-    
-  \begin{thebibliography}{10}
-      
-  \beamertemplatearticlebibitems 
-
-  \bibitem{Collapsed_Building}
-    Collapsed Building
-    \\\texttt{https://thepeninsulaqatar.com/uploads/2018/03/05/post_main_cover_fit//ab163c27f105685a9ac5ba2f28f10fef6996d55c.jpeg}
-    
-  \bibitem{DJIPhanthom}
-    DJI Phanthom
-    \\\texttt{https://www.dji.com/phantom-4/info}
-    
-  \bibitem{Pixhawk}
-    Pixhawk
-    \\\texttt{http://ardupilot.org/copter/docs/common-pixhawk-overview}
-
-  \bibitem{Parrot}
-    Parrot AR Drone
-    \\\texttt{http://www.sciautonics.com/parrot-ar-drone-2-0-review}
-    
-  \bibitem{Crazyflie}
-    Crazy Flie 2.0
-    \\\texttt{https://www.bitcraze.io/crazyflie-2/}    
-    
-  \bibitem{Crazyfliea}
-    Crazy Flie 2.0
-    \\\texttt{https://www.bitcraze.io/crazyflie-2/}
-  
-  \bibitem{Vision1}
-    C. Troiani, S. A. Zanati, and A. Martinelli,
-    \newblock A 3 points vision based approach for mav localization in gps denied environments,
-    \newblock {\em in 2013 European Conference on Mobile Robots}
-    
-  \bibitem{Vision2}
-    D. Li, Q. Li, L. Tang, S. Yang, N. Cheng, and J. Song,
-    \newblock Invariant observer-based state estimation for micro-aerial vehicles in gps-denied indoor environments using an rgb-d camera and mems inertial sensors,
-    \newblock {\em Micromachines, vol. 6.}
-
-  \bibitem{Lidar1}
-    Lorenz Wellhausen, Renaud Dubé and  Abel Gawel,
-    \newblock Reliable real-time change detection and mapping for 3D LiDARs,
-    \newblock {\em Safety, Security and Rescue Robotics (SSRR)} 2017 IEEE International Symposium. 
-
-  \bibitem{Lidar2}
-    Paulo V. K. Borges and Alberto Elfes,
-    \newblock Real-time autonomous ground vehicle navigation in heterogeneous environments using a 3D LiDAR,
-    \newblock {\em Intelligent Robots and Systems (IROS)} 2017 IEEE/RSJ International Conference. 
-
-  \bibitem{Sparse1}
-    Kristopher R. Beevers and Wesley H. Huang,
-    \newblock An Embedded Implementation of SLAM with Sparse Sensing,
-    \newblock {\em Submitted the 2008 IEEE International Conference on Robotics & Automation (ICRA 2008)}
-    
-  \bibitem{Sparse2}
-    Paulo K. R. Beevers,
-    \newblock Mapping with limited sensing,
-    \newblock {\em PhD thesis, Rensselaer Polytechnic Institute, Troy, NY, January 2007}
-    
-  \end{thebibliography}
-  
+% \begin{figure}
+%    \centering
+%    \subfloat{{\includegraphics[width=5cm]{Video_img.png}}}
+%    \qquad
+%    \subfloat{{\includegraphics[width=5cm]{Trajectory_img.jpg} }}
+%  \end{figure}
 \end{frame}
 
 \end{document}

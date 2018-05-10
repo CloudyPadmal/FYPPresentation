@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.30)  10 MAY 2018 17:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.30)  10 MAY 2018 22:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1107,27 +1107,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 269--269
 [10
 
 ]
-
-LaTeX Warning: Citation `DJIPhanthom' on page 11 undefined on input line 315.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
-[]|\OT1/cmss/bx/n/9 DJI Phan-
- []
-
-
-LaTeX Warning: Citation `Pixhawk' on page 11 undefined on input line 315.
-
-
-LaTeX Warning: Citation `Parrot' on page 11 undefined on input line 315.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 315--315
 []|\OT1/cmss/bx/n/9 Parrot AR
  []
-
-
-LaTeX Warning: Citation `Crazyflie' on page 11 undefined on input line 315.
 
 <DJI_Phanthom.jpg, id=301, 1204.5pt x 738.76pt>
 File: DJI_Phanthom.jpg Graphic file (type jpg)
@@ -1347,16 +1329,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 611.
  ) 
 Here is how much of TeX's memory you used:
- 18264 strings out of 493029
- 349723 string characters out of 6136234
+ 18260 strings out of 493029
+ 349682 string characters out of 6136234
  427754 words of memory out of 5000000
- 21309 multiletter control sequences out of 15000+600000
+ 21305 multiletter control sequences out of 15000+600000
  15108 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,16n,57p,384b,931s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1367,7 +1346,7 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on main.pdf (25 pages, 1445348 bytes).
+Output written on main.pdf (25 pages, 1445071 bytes).
 PDF statistics:
  752 PDF objects out of 1000 (max. 8388607)
  679 compressed objects within 7 object streams
